@@ -9,7 +9,7 @@ def proc(n):
         sock = socket.socket()
         try:
             #print(port)
-            sock.connect(('127.0.0.1', port))
+            sock.connect(('188.94.33.38', port))
             print("Порт", port, "открыт")
         except:
             continue
