@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
 
 import socket
 from time import sleep
@@ -22,7 +17,6 @@ sock.close()
 print(data.decode())
 
 
-# In[ ]:
 
 
 
